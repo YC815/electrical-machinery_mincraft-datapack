@@ -1,0 +1,1 @@
+clear @a #custom_gui:all{Tags:[gui]}

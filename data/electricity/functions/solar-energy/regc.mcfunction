@@ -1,0 +1,2 @@
+scoreboard players set @s timerI 60
+execute as @e[type=minecraft:marker,tag=se, tag=!new, predicate=electricity:is_light] at @s run scoreboard players add @e[type=minecraft:marker,distance=..16,tag=cb,limit=1] electricity 1

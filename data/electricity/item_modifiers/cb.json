@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:set_name",
+  "name": {
+    "text": "目前電量: ","italic":false,"color":"aqua",
+    "extra": [
+      {
+        "score": {
+          "objective": "electricity",
+          "name": "@s"
+        }
+      }
+    ]
+  },
+  "entity": "this"
+}
