@@ -1,0 +1,1 @@
+give @p minecraft:silverfish_spawn_egg{EntityTag:{id:"marker", Tags:[tc, new]},HideFlags:32,display:{Name:'[{"text":"","italic":false},{"text":"TNT複製裝置","color":"red"}]'}} 1

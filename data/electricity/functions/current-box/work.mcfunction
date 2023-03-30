@@ -9,4 +9,4 @@ execute as @e[type=minecraft:marker,tag=cb, tag=!new] at @s run execute if block
 
 # 運作
 execute as @e[type=minecraft:marker,tag=cb, tag=!new] at @s run item replace block ~ ~ ~ container.4 with minecraft:spyglass{Tags:[gui, cb-gui]}
-execute as @e[type=minecraft:marker,tag=cb, tag=!new] at @s if block ~ ~ ~ minecraft:dropper[facing=north,triggered=false]{Items:[{Count:1b,Slot:4b,id:"minecraft:spyglass",tag:{Tags:["gui","cb-gui"]}}]} run item modify block ~ ~ ~ container.4 electricity:cb
+execute as @e[type=minecraft:marker,tag=cb, tag=!new] at @s run item modify block ~ ~ ~ container.4 electricity:cb

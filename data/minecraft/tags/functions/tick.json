@@ -2,6 +2,8 @@
     "values": [
         "electricity:solar-energy/work",
         "electricity:current-box/work",
-        "setting:clear-gui-item"
+        "setting:clear-gui-item",
+        "electricity:tnt-copy/work",
+        "setting:tick"
         ]
 }
